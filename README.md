@@ -1,2 +1,3 @@
 # IBM-X-Force-Exchange
-PowerShell based client for the use of the IBM X-Force Exchange API
+PowerShell based client for the use of the IBM X-Force Exchange API. For more information on the X-Force Exchange API see https://api.xforce.ibmcloud.com/doc/.
+
