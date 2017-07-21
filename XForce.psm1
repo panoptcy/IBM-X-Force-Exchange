@@ -1814,3 +1814,33 @@ function Get-XFRecentVulnerabilities {
     END{}#End of END block
 
 }#End of Get-XFRecentVulnerabilities
+
+<#####################################################
+                        Script
+#######################################################>
+
+#Setting Aliases
+New-Alias -Name Set-API -Value Set-MyAPISet
+New-Alias -Name PDNS -Value Get-XFPassiveDNS
+New-Alias -Name Get-PDNS -Value Get-XFPassiveDNS
+New-Alias -Name Get-PassiveDNS -Value Get-XFPassiveDNS
+New-Alias -Name RDNS -Value Get-XFReverseDNS
+New-Alias -Name Get-RDNS -Value Get-XFReverseDNS
+New-Alias -Name Get-ReverseDNS -Value Get-XFReverseDNS
+New-Alias -Name Get-IPHistory -Value Get-XFIPRepHistory
+New-Alias -Name IPHist -Value Get-XFIPRepHistory
+New-Alias -Name Get-IPReputation -Value Get-XFIPRepHistory
+New-Alias -Name IPRep -Value Get-XFIPRepHistory
+New-Alias -Name Get-HostedMalware -Value Get-XFHostedMalware
+New-Alias -Name HostedMal -Value Get-XFHostedMalware
+New-Alias -Name MalMD5 -Value Get-XFMalwareForMD5
+New-Alias -Name Get-MalFamily -Value Get-XFMalwareFamily
+New-Alias -Name MalFam -Value Get-XFMalwareFamily
+New-Alias -Name Find-Vuln -Value Find-XFVulnerabilities
+New-Alias -Name Vuln -Value Find-XFVulnerabilities
+New-Alias -Name Get-RecentVuln -Value Get-XFRecentVulnerabilities
+New-Alias -Name RecentVuln -Value Get-XFRecentVulnerabilities
+New-Alias -Name Get-Whois -Value Get-XFWhois
+New-Alias -Name Whois -Value Get-XFWhois
+
+Export-ModuleMember -Alias * -Function *
